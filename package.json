@@ -1,0 +1,48 @@
+{
+  "name": "@somesmall.studio/rtpmidi",
+  "version": "2.0.0",
+  "author": "Jascha Dachtera <jascha.dachtera@gmail.com>",
+  "description": "A node js implementation of Apple's Network Midi Protocol. Updated for compatibility with modern Node.js versions.",
+  "type": "commonjs",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/somesmallstudio/node-rtpmidi.git"
+  },
+  "dependencies": {
+    "bonjour-service": "^1.1.1",
+    "midi-common": "^0.0.4"
+  },
+  "optionalDependencies": {
+    "midi": "^2.0.0"
+  },
+  "keywords": [
+    "midi",
+    "rtpmidi",
+    "coremidi",
+    "network",
+    "music"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node examples/simple-endpoint.js",
+    "test": "node test.js",
+    "diagnostic": "node diagnostic-tool.js"
+  },
+  "files": [
+    "src/**/*",
+    "examples/**/*",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

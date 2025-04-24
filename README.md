@@ -5,9 +5,9 @@ I can also detect remote sessions via bonjour/mdns. The recovery journal is not 
 
 ## Examples:
 
-* [Observe session activity](https://github.com/jdachtera/node-rtpmidi/blob/master/examples/track-sessions.js)
-* [Bridge to virtual midi ports](https://github.com/jdachtera/node-rtpmidi/blob/master/examples/rtpmidi-native-bridge.js)
-* [Receive MTC messages](https://github.com/jdachtera/node-rtpmidi/blob/master/examples/mtc.js)
+* [Observe session activity](https://github.com/djgod01/node-rtpmidi/blob/master/examples/track-sessions.js)
+* [Bridge to virtual midi ports](https://github.com/djgod01/node-rtpmidi/blob/master/examples/rtpmidi-native-bridge.js)
+* [Receive MTC messages](https://github.com/jdachtera/djgod01/blob/master/examples/mtc.js)
 
 ## TODO:
 - [x] Linting and code standards
